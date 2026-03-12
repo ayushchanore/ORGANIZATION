@@ -60,7 +60,7 @@ const Navbar = () => {
           onClick={() => setSidebarOpen(false)}
         />
 
-        <Link to="/home" onClick={() => setSidebarOpen(false)}>
+        <Link to="/" onClick={() => setSidebarOpen(false)}>
           Home
         </Link>
         <Link to="/about" onClick={() => setSidebarOpen(false)}>
